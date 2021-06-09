@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.tasks-container {
+    margin-top: 50px;
+}
+
+.list-container {
+    margin: 50px auto 0 auto;
+    max-width: 750px;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 100;
+}
+
+.list-container-heading {
+    font-size: 1.8em;
+}
+
+.task-heading {
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.task-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.icon-item {
+    margin-right: 5px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.icon-item:hover {
+    cursor: pointer;
+}
+
+.tick-item {
+    color: green;
+}
+
+.edit-item {
+    color: blue;
+}
+
+.remove-item {
+    color: red;
+}
+
+.form-container {
+    display: flex;
+    margin-top: 25px;
+}
+
+.form-input {
+    padding: 0.7rem;
+    font-size: 1em;
+    font-family: inherit;
+    outline: none;
+}
+
+.task-input {
+    max-width: 750px;
+    width: 100%;
+    border: 1px solid green;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-transform: capitalize;
+}
+
+.btn {
+    padding: 0.7rem;
+    font-size: 1em;
+}
+
+.clear-btn {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form-btn {
+    width: 100px;
+    border: 1px solid green;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: green;
+    outline: none;
+}
+
+.form-btn:hover {
+    background-color: green;
+    color: black;
+    cursor: pointer;
+}
+
+.completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.visibility {
+    opacity: 0.5;
+}
+
